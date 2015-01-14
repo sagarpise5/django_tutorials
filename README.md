@@ -1,2 +1,2 @@
 # django_tutorials
-Django Tutorials
+Django tutorials for personal use (study)

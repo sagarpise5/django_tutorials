@@ -55,16 +55,13 @@ ROOT_URLCONF = 'django_tutorials.urls'
 WSGI_APPLICATION = 'django_tutorials.wsgi.application'
 
 
-
-
-
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #  Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'tutorial',  # Database Name Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'django',  # User/Role name of database
