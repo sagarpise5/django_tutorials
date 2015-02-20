@@ -11,7 +11,7 @@ def index(request):
     # print("context : ", context)
     # return HttpResponse( template.render(context ))
 
-    latest_three_questions = Question.objects.order_by('-pub_date')[:3]
+    latest_three_questions = Question.objects.order_by('-pub_date')[:5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ]
     ctx = {'latest_question_list': latest_three_questions}
     return render(request, 'polls/index.html', ctx)
 

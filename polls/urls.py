@@ -8,7 +8,7 @@ urlpatterns = patterns('',
                        # ex: /polls/
                        url(r'^$', views.index, name='index'),
                        # ex: /polls/5/
-                       url(r'^(?P<question_id>\d+)/$', views.details, name='detail'),
+                       url(r'^(?P<question_id>\d+)/$', views.details, name='details'),
                        # ex: /polls/5/results/
                        url(r'^(?P<question_id>\d+)/results/$', views.results, name='results'),
                        # ex: /polls/5/vote/
